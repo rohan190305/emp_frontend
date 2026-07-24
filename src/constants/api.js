@@ -1,1 +1,1 @@
-export const API_URI = "https://ems-backend-6-0zao.onrender.com/api"
+export const API_URI = "https://ems-backend-10.onrender.com/api"
