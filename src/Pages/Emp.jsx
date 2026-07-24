@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { CreateEmp, editEmp, getEmpById } from '../api/emp'
 import { useNavigate, useParams } from 'react-router-dom'
+import { API_URI } from '../constants/api'
 
-const BASE = 'http://localhost:5000/api'
+const BASE = API_URI
 
 const Emp = () => {
   const [department, setDepartment] = useState([])
